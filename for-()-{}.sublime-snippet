@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[for (var ${20:i} = 0, ${30:len} = ${1:Things}.length; ${20:i} < ${30:len}; ${20:i}++) {
+	${100:var $0 = ${1:Things}[${20:i}]};
+}]]></content>
+    <tabTrigger>for</tabTrigger>
+    <scope>source.js</scope>
+    <description>for!</description>
+</snippet>
